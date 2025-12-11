@@ -10,3 +10,58 @@ body {
 main {
   flex: 1;
 }
+
+.table-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #1b7744;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+td {
+    padding: 15px;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+td img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f3f3f3;
+}
+
